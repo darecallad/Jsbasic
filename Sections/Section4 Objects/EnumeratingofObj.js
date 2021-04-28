@@ -14,4 +14,8 @@ for( let key of circle)
     console.log(key); //error obj is not iterable
 
 Object.key(circle); 
-Object.defineProperties(circle);
+Object.erties(circle);
+
+//for in loop to object key
+// for of loop with obj.key
+

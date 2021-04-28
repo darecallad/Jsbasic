@@ -16,3 +16,7 @@ for(let key in circle)
 const another1 = Object.assign({
     color: 'yellow'
 }, circle); // take all the properties
+
+// other way
+const another2 = {...circle}; // take all the properties put them 
+// into 

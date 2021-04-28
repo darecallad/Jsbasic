@@ -11,3 +11,4 @@ let b = a; // point to same obj of memory
 
 a.value = 10;
 console.log(a,b);
+

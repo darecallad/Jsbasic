@@ -21,3 +21,5 @@ Johnson`;
 
 
 console.log(message1);
+// ${ } this message will show on string 
+
