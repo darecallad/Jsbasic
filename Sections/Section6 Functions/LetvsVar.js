@@ -12,3 +12,6 @@ function start(){
 // 
 
 start();
+
+//window objs
+// 
