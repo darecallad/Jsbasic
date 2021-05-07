@@ -13,3 +13,5 @@ const video = {
 };
 
 video.showTags();
+
+// new operator create new objs
