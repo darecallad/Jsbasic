@@ -1,4 +1,4 @@
-// Adding and Removing Value
+// Enumerating Properties
 
 function Circle(raduis){
     this.radius = raduis;
@@ -7,10 +7,11 @@ function Circle(raduis){
     }
 }
 
-
 const circle = new Circle1(1);
 
-circle.location = {x :1};
-circle['location'] = {x :1};
+for(let ket in circle){
+    console.log(key, circle[key]);
+}
 
-delete circle.location;
+const keys = Object.keys(circle);
+console.log(keys);
