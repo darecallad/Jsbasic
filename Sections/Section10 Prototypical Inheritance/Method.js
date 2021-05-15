@@ -24,10 +24,12 @@ extend(Dizzy, Shape);
 const d = new Dizzy(1);
 
 Dizzy.prototype.draw = function(){
-    // way to use the same function for parent 
+    // way to call parent's function
     Shape.prototype.draw.call(this);
 
 
     console.log('special draw dizzy');
 }
 d.draw();
+const s = new Shape('red');
+s.draw();
