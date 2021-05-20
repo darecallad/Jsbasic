@@ -18,3 +18,5 @@ class Circle{
         console.log('draw function');
     }
 }
+
+const c = new Circle(1);
